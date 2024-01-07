@@ -1,0 +1,52 @@
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-primary,
+  .btn-success,
+  .btn-danger {
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .table {
+    margin-bottom: 20px;
+  }
+  
+  #edit-box {
+    display: none;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 576px) {
+    .form {
+      padding: 15px;
+    }
+  }
+  
